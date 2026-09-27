@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        // MCP SDK exposes subpath exports only ("@modelcontextprotocol/sdk/server/mcp.js"),
+        // which node10 resolution cannot resolve — tsup(esbuild) bundles, so "Bundler" fits.
+        "moduleResolution": "Bundler",
+        "baseUrl": "./src/",
+        "paths": {
+            "@/*":   [ "./*" ],
+        },
+        "sourceMap": true,
+        "strict": true,
+        "allowJs": true,
+        "checkJs": true,
+        "incremental": false,
+        "esModuleInterop": false,
+        "resolveJsonModule": false,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": false,
+        "useDefineForClassFields": false,
+        "noImplicitAny": false,
+        // zod 4 / MCP SDK 타입 추론이 strictNullChecks 전제 — 형제 패키지(mcp-ssh)와 같이 켜둠
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "experimentalDecorators": true,
+
+        "outDir": "./lib",
+        "target": "ES2022",
+        "module": "ESNext",
+        "lib": [ "ES2022", "DOM" ],
+        "skipLibCheck": true,
+        "declaration": true,
+        "declarationMap": true,
+    },
+    "include": [ "src" ],
+    "exclude": [ "node_modules", "lib" ],
+}

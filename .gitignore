@@ -1,0 +1,20 @@
+.claude/*.local.json
+.vscode/
+
+[Dd]ist/
+[Ll]ib/
+
+### Node ###
+[Ll]ogs/
+*.log
+npm-debug.log*
+node_modules/
+coverage
+*.lcov
+*.tsbuildinfo
+.npm
+*.tgz
+.env
+.env.*.local
+.env.local
+.cache
