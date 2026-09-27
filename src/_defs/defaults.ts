@@ -36,4 +36,4 @@ export const WSL_FAILURE_EXIT_CODES = [4294967295, -1];
 
 export const SERVER_NAME = "akms-mcp-wsl";
 
-export const SERVER_VERSION = "0.0.1";
+export const SERVER_VERSION = "0.0.2";

@@ -2,6 +2,12 @@
 
 All notable changes to `@akms/mcp-wsl`. Dates are `YYYY-MM-DD`.
 
+## 0.0.2 — 2026-09-28
+
+- `package.json` declares `repository`, `homepage` and `bugs` pointing at
+  `github.com/alkemic-studio/npm.akms.mcp-wsl`.
+- `README_DEV.md` links `@akms/mcp-ssh` to its repository under `alkemic-studio`.
+
 ## 0.0.1 — 2026-09-28
 
 Initial implementation. Design record: `akms.docs/mcp-wsl-design.md`.

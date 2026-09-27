@@ -1,6 +1,6 @@
 # Development
 
-Sibling of [`@akms/mcp-ssh`](https://github.com/akms) — same layout, same build, same tool surface with `ssh_` → `wsl_`. The design record with the measurements behind each decision is `akms.docs/mcp-wsl-design.md`.
+Sibling of [`@akms/mcp-ssh`](https://github.com/alkemic-studio/npm.akms.mcp-ssh) — same layout, same build, same tool surface with `ssh_` → `wsl_`. The design record with the measurements behind each decision is `akms.docs/mcp-wsl-design.md`.
 
 ## 🧑‍💻 Commands
 

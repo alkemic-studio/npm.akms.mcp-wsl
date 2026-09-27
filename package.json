@@ -1,9 +1,17 @@
 {
     "name": "@akms/mcp-wsl",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "MCP server that lets an AI agent run shell commands and transfer files in one pre-registered WSL distro through wsl.exe — no sshd, no key, no port — with every command and path screened by the @akms/mcp-ssh guard policy.",
     "keywords": [],
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alkemic-studio/npm.akms.mcp-wsl.git"
+    },
+    "homepage": "https://github.com/alkemic-studio/npm.akms.mcp-wsl#readme",
+    "bugs": {
+        "url": "https://github.com/alkemic-studio/npm.akms.mcp-wsl/issues"
+    },
     "type": "module",
     "main": "./lib/index.cjs",
     "module": "./lib/index.js",
